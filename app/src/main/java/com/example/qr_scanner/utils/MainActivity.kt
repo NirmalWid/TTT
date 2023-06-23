@@ -1,9 +1,10 @@
-package com.example.qr_scanner
+package com.example.qr_scanner.utils
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.qr_scanner.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Handler().postDelayed({
-            startActivity(Intent(this, Roles::class.java))
+            startActivity(Intent(this, Login::class.java))
             finish()
         },1000)
 
