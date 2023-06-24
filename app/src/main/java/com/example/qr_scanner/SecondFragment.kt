@@ -1,4 +1,4 @@
-package com.example.qr_scanner.utils
+package com.example.qr_scanner
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

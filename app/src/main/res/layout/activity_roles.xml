@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".utils.Roles">
+    tools:context=".Roles">
 
 
     <ImageView
@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:backgroundTint="#006E6C"
-        android:text="Time Update"
+        android:text="Train  Update"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

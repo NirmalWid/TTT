@@ -1,4 +1,4 @@
-package com.example.qr_scanner.utils
+package com.example.qr_scanner
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,6 @@ import android.widget.EditText
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.qr_scanner.R
 import com.example.qr_scanner.model.TrainModel
 import com.google.firebase.database.FirebaseDatabase
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TrainReg">
+    tools:context=".TrainEdit">
 
     <com.example.qr_scanner.CustomEditText
         android:id="@+id/editTextText4"
@@ -86,7 +86,7 @@
         android:layout_width="142dp"
         android:layout_height="62dp"
         android:backgroundTint="#006D6E"
-        android:text="Next"
+        android:text="Edit"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,6 +94,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText9"
         app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/delte"
+        android:layout_width="142dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#006D6E"
+        android:text="Delete"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText9"
+        app:layout_constraintVertical_bias="0.376" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -114,7 +128,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/castoro"
-        android:text="Register Trains"
+        android:text="Edit Train Details"
         android:textColor="#006D6E"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -122,5 +136,7 @@
         app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

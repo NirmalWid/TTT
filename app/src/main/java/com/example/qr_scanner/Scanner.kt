@@ -1,4 +1,4 @@
-package com.example.qr_scanner.utils
+package com.example.qr_scanner
 
 import android.Manifest
 import android.content.DialogInterface
@@ -15,7 +15,6 @@ import com.budiyev.android.codescanner.CodeScannerView
 import com.budiyev.android.codescanner.DecodeCallback
 import com.budiyev.android.codescanner.ErrorCallback
 import com.budiyev.android.codescanner.ScanMode
-import com.example.qr_scanner.R
 
 class Scanner : AppCompatActivity() {
 

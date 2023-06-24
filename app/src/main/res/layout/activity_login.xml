@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".utils.Login">
+    tools:context=".Login">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/_574780056_tt" />
 
-    <com.example.qr_scanner.utils.CustomEditText
+    <com.example.qr_scanner.CustomEditText
         android:id="@+id/editTextText"
         android:layout_width="327dp"
         android:layout_height="66dp"
@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-    <com.example.qr_scanner.utils.CustomEditText
+    <com.example.qr_scanner.CustomEditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="329dp"
         android:layout_height="65dp"
@@ -41,8 +41,9 @@
         android:background="@drawable/roundshape"
         android:backgroundTint="#ADDAD9"
         android:ems="10"
-        android:hint="       Password"
-        android:inputType="text"
+        android:hint="    •••••••••"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"

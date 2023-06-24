@@ -1,4 +1,4 @@
-package com.example.qr_scanner.utils
+package com.example.qr_scanner
 
 import android.app.DatePickerDialog
 import android.content.Intent
@@ -8,7 +8,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import com.example.qr_scanner.R
 import com.example.qr_scanner.model.CheckerModel
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError

@@ -1,4 +1,4 @@
-package com.example.qr_scanner.utils
+package com.example.qr_scanner
 
 import android.content.Context
 import android.graphics.Canvas
@@ -8,7 +8,6 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatEditText
-import com.example.qr_scanner.R
 
 class CustomEditText(context: Context, attrs: AttributeSet) : AppCompatEditText(context, attrs) {
 
